@@ -23,6 +23,23 @@ function move() {
         width = width + (difference * 0.2);
         elem.style.width = width/2 + "%";
         elem.innerHTML = width;
+
+
+        if (width <= (difference * 0.2)) {
+          elem.style.backgroundColor = "blue"
+        } else if (width <= (difference * 0.4)) {
+          elem.style.backgroundColor = "green"
+        } else if (width <= (difference * 0.6)) {
+          elem.style.backgroundColor = "yellow"
+        } else if (width <= (difference * 0.8)) {
+          elem.style.backgroundColor = "orange"
+        } else {
+          elem.style.backgroundColor = "red"
+        }
+
+
+
+
       }
     }
 
