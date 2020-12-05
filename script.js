@@ -10,6 +10,8 @@ function move() {
 
     console.log(sTValue, eTValue,mSValue)
 
+    let difference = eTValue - sTValue;
+
 
     var i = 0;
 
@@ -17,11 +19,12 @@ function move() {
     var elem = document.getElementById("myBar");
     var width = sTValue;
     var id = setInterval(frame, mSValue);
+
     function frame() {
       if (width >= eTValue) {
         clearInterval(id);
       } else {
-        width = width + 20;
+        width = width + (difference * 0.2);
         elem.style.width = width/2 + "%";
         elem.innerHTML = width;
       }
