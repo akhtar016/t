@@ -12,10 +12,6 @@ function move() {
 
     let difference = eTValue - sTValue;
 
-
-    var i = 0;
-
-    if (i == 0) {
     var elem = document.getElementById("myBar");
     var width = sTValue;
     var id = setInterval(frame, mSValue);
@@ -29,5 +25,12 @@ function move() {
         elem.innerHTML = width;
       }
     }
-  }
+
 }
+
+
+// blue
+// green
+// yellow
+// orange 
+// red
