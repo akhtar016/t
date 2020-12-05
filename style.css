@@ -1,0 +1,21 @@
+h3 {
+    display: inline;
+  }
+  #myProgress {
+    width: 100%;
+    height: 30px;
+    background-color: gray;
+  }
+
+  .layout {
+      display: flex;
+
+  }
+  #myBar {
+width: 5%;
+height: 30px;
+background-color: #4CAF50;
+text-align: center;
+line-height: 30px;
+color: white;
+}
