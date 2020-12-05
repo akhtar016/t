@@ -1,21 +1,32 @@
 h3 {
     display: inline;
   }
-  #myProgress {
-    width: 100%;
-    height: 30px;
-    background-color: gray;
+#myProgress {
+    width: 400px;
+    height: 40px;
+    background-color: orange;
+    border: 1px solid black;
   }
 
-  .layout {
+.layout {
       display: flex;
-
   }
-  #myBar {
-width: 5%;
+
+#myBar {
+width: 0px;
 height: 30px;
-background-color: #4CAF50;
-text-align: center;
-line-height: 30px;
 color: white;
+padding: 5px;
+background-color: #4CAF50;
 }
+
+#pBarSec {
+  display: flex;
+}
+
+#pBarSec h3 {
+  margin: 20px;
+}
+
+
+

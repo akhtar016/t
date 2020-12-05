@@ -22,8 +22,8 @@ function move() {
         clearInterval(id);
       } else {
         width = width + 20;
-        elem.style.width = width + "%";
-        elem.innerHTML = width  + "%";
+        elem.style.width = width/2 + "%";
+        elem.innerHTML = width;
       }
     }
   }
